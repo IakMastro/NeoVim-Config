@@ -33,6 +33,7 @@ packer.startup(function(use)
   use { 'hrsh7th/nvim-cmp' }
   use { 'folke/which-key.nvim' }
   use { 'lewis6991/spellsitter.nvim' }
+  use { 'akinsho/toggleterm.nvim' }
 
   -- [[ Theme ]]
   use { 'mhinz/vim-startify' }
