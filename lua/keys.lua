@@ -17,8 +17,8 @@ set_global_variable('maplocalleader', ' ')
 
 -- Window navigation 
 keymap('n', '<S-Left>', '<C-w>h')
-keymap('n', '<S-Up>', '<C-w>j')
-keymap('n', '<S-Down>', '<C-w>k')
+keymap('n', '<S-Down>', '<C-w>j')
+keymap('n', '<S-Up>', '<C-w>k')
 keymap('n', '<S-Right>', '<C-w>l')
 
 -- Window resize

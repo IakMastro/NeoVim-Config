@@ -1,13 +1,15 @@
 require('opts')
 require('keys')
 require('plug')
-require('lsp_config')
-require('treesitter_config')
 require('terminal')
-require('which-key')
-require('tree')
 require('autopairs')
 require('line')
 require('spell')
+require('wk')
 
-vim.cmd[[colorscheme tokyodark]]
+-- lsp
+require('lsp.cmp')
+require('lsp.lsp-config')
+require('lsp.lsp-installer')
+require('lsp.treesitter_config')
+require('lsp.tree')

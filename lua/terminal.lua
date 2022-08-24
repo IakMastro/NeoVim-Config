@@ -26,17 +26,6 @@ toggleterm.setup({
     },
 })
 
---function _G.set_terminal_keymaps()
---    buf_keymap('t', '<esc>', [[<C-\><C-n>]])
---    buf_keymap('t', 'jk', [[<C-\><C-n>]])
---    buf_keymap('t', '<C-h>', [[<C-\><C-n><C-W>h]])
---    buf_keymap('t', '<C-j>', [[<C-\><C-n><C-W>j]])
---    buf_keymap('t', '<C-k>', [[<C-\><C-n><C-W>k]])
---    buf_keymap('t', '<C-l>', [[<C-\><C-n><C-W>l]])
---end
-
--- vim.cmd('autocmd! TermOpen term://* lua set_terminal_keymaps()')
-
 local Terminal = require('toggleterm.terminal').Terminal
 local lazygit = Terminal:new({ cmd = 'lazygit', hidden = true })
 
