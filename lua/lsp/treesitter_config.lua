@@ -22,7 +22,10 @@ configs.setup {
     },
     sync_install = false,
     auto_install = true,
-    ignore_install = { "" },
+    indent = {
+        enable = true, -- default is disabled anyways
+    },
+    ignore_install = { "phpdoc", "tree-sitter-phpdoc" },
     highlight = {
         enable = true,
         disable = { "" },

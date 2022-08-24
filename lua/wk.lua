@@ -12,7 +12,6 @@ local opts = {
     nowait = true, 
 }
 
-
 local setup = {
 
     plugins = { marks = true, registers = true },
